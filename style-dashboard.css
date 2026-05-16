@@ -1,0 +1,82 @@
+.dashboard-container2 {
+    padding: 10px;
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.welcome-section {
+    background: linear-gradient(135deg, #6842b3, #695CFE);
+    color: white;
+    padding: 40px 30px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.form-section {
+    background-color: #d4ccff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.form-section h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-section input,
+.form-section textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.form-section button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #695CFE;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-section button:hover {
+    background-color: #6842b3;
+}
+.label-stil {
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    display: block;
+    margin-bottom: 6px;
+    letter-spacing: 1px;
+    
+}
+
+select {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 15px;
+    max-width: 100%;
+}
+
+

@@ -1,0 +1,53 @@
+
+.pagesat-container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #d4ccff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.1);
+}
+
+.pagesat-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #4b4b7f;
+}
+
+.pagesat-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.pagesat-th,
+.pagesat-td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: center;
+}
+
+
+.pagesat-th {
+    background-color: #695CFE;
+    color: white;
+}
+
+.pagesat-tr:nth-child(even) {
+    background-color: #f7f7fb;
+}
+
+.pagesat-btn-paguaj {
+    background-color: #28a745;
+    color: white;
+    padding: 7px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.pagesat-btn-paguaj:hover {
+    background-color: #1e7e34;
+}
+
+
